@@ -20,7 +20,7 @@ const Homepage = () => {
         padding: isMobile ? "15px 20px" : "20px 80px" 
       }}>
         <div style={styles.logo}>
-          <span style={styles.logoIcon}>🎓</span> EduTrack
+          <span style={styles.logoIcon}>🎓</span> Smart Track
         </div>
         <button style={styles.navBtn} onClick={() => navigate("/login")}>
           Sign In
@@ -86,7 +86,7 @@ const Homepage = () => {
       </section>
 
       <footer style={styles.footer}>
-        © 2026 EduTrack Systems
+        © 2026 Smart Track 
       </footer>
     </div>
   );
