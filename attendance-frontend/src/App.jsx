@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-
+import Homepage from "./pages/HomePage";  
 import Login from "./pages/Login";
 import OAuthSuccess from "./pages/OAuthSuccess";
 
@@ -31,9 +31,10 @@ function App() {
       <Routes>
 
         {/* Public Routes */}
-
+        <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/oauth-success" element={<OAuthSuccess />} />
+
 
         {/* ================= ADMIN ROUTES ================= */}
         <Route
