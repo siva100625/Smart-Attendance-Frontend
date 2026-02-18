@@ -29,7 +29,7 @@ function Login() {
   };
 
   const handleGoogleLogin = () => {
-    window.location.href = "http://localhost:8080/oauth2/authorization/google";
+    window.location.href = "https://smart-attendance-backend-0ggj.onrender.com/oauth2/authorization/google";
   };
 
   return (
